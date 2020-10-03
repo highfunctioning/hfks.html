@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>contact us</title>
+<style>
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: -5px;
+  
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #111;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.lefted {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+</style>
+<style type="text/css">
+	input {
+		background-color : white;
+		border-color: transparent;
+
+	}
+</style>
+
+<body>
+<div class="split left">
+  <div class="lefted">
+    <p style="color:yellow;font-size:55px";">KRISHI SARTHI</h1>
+     <p style="color:white"><img src="pic_trulli.jpg">location</p>
+     <p style="color:white"><img src="pic_trulli.jpg">Email Address</p>
+    <P style="color:white"><img src="pic_trulli.jpg">Telephone</p>
+    <img src="pic_trulli.jpg"><img src="pic_trulli.jpg"><img src="pic_trulli.jpg">
+  </div>
+</div>
+
+
+<div class="split right" class="bg">
+  <div class="centered">
+ 
+   <form action="/action_page.php">
+       <p><textarea id="name" name="name" placeholder="NAME" cols="50"></textarea></p>
+       <p><textarea id="email" name="email" placeholder="EMAIL" cols="50"></textarea></p>
+       <p><textarea id="phone no." name="phone no." placeholder="PHONE NUMBER" cols="50"></textarea></p>
+       <p><textarea id="subject" name="subject" placeholder="MESSAGE" rows="8" cols="50"></textarea></p>
+       <p><input type="submit" value="Send message" style="font-size:15pt;color:black;background-color:yellow;border:4px;padding:8px; border-radius:5px;"></p>
+      </form>
+   
+  </div>
+</div>
+
+ 
